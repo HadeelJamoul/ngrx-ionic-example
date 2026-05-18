@@ -10,6 +10,7 @@ import {
   selector: 'app-settings',
   templateUrl: './settings.page.html',
   styleUrls: ['./settings.page.scss'],
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [IonHeader, IonToolbar, IonTitle, IonContent],
 })

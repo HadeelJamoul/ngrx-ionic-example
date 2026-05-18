@@ -5,19 +5,18 @@ import {
   IonTabButton,
   IonIcon,
   IonLabel,
-} from '@ionic/angular';
+} from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import { checkboxOutline, settingsOutline } from 'ionicons/icons';
 
-Component({
+@Component({
   selector: 'app-tabs',
   templateUrl: './tabs.page.html',
   standalone: true,
   styleUrls: ['./tabs.page.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel],
-});
-
+})
 export class TabsPage {
   constructor() {
     addIcons({ settingsOutline, checkboxOutline });

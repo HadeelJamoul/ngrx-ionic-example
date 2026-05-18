@@ -10,6 +10,7 @@ import {
   selector: 'app-tasks',
   templateUrl: './tasks.page.html',
   styleUrls: ['./tasks.page.scss'],
+  standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [IonHeader, IonToolbar, IonTitle, IonContent],
 })
