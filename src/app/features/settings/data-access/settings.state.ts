@@ -3,7 +3,7 @@ import { AppTheme } from 'src/app/core/models/app-settings.model';
 export interface SettingsState {
   displayName: string;
   theme: AppTheme;
-  status: 'idle' | 'loading' | 'error';
+  status: 'idle' | 'loading' | 'error' | 'success';
   error: string | null;
 }
 
