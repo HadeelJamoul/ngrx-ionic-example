@@ -12,6 +12,7 @@ import { checkboxOutline, settingsOutline } from 'ionicons/icons';
 Component({
   selector: 'app-tabs',
   templateUrl: './tabs.page.html',
+  standalone: true,
   styleUrls: ['./tabs.page.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel],
