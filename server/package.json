@@ -1,0 +1,14 @@
+{
+  "name": "ngrx-ionic-example-alert-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mock nursing alert WebSocket server for learning realtime patterns",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
